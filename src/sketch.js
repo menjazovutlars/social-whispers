@@ -391,17 +391,17 @@ function setupGame() {
   let titleScreenStreet = new ColorScreen(0, 580, 1935, windowHeight - windowHeight * 0.68, color("#000000"));
   titleScreen.addChild(titleScreenStreet);
 
-  let startGameBtn = new TitleScreenButton(125, 240, 0, 20, "Spiel starten", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "playStartVideo");
-  titleScreen.addChild(startGameBtn);
+  // let startGameBtn = new TitleScreenButton(125, 240, 0, 20, "Spiel starten", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "playStartVideo");
+  // titleScreen.addChild(startGameBtn);
 
-  let settingsBtn = new TitleScreenButton(125, 280, 0, 20, "Steuerung", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showInstructions");
-  titleScreen.addChild(settingsBtn);
+  // let settingsBtn = new TitleScreenButton(125, 280, 0, 20, "Steuerung", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showInstructions");
+  // titleScreen.addChild(settingsBtn);
 
-  let aboutUsBtn = new TitleScreenButton(125, 320, 0, 20, "Über uns", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showAboutUs");
-  titleScreen.addChild(aboutUsBtn);
+  // let aboutUsBtn = new TitleScreenButton(125, 320, 0, 20, "Über uns", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showAboutUs");
+  // titleScreen.addChild(aboutUsBtn);
 
-  let creditsBtn = new TitleScreenButton(125, 360, 0, 20, "Credits", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showCredits");
-  titleScreen.addChild(creditsBtn);
+  // let creditsBtn = new TitleScreenButton(125, 360, 0, 20, "Credits", window.fonts.rockwell, color("#8b4726"), color("#ffa500"), "showCredits");
+  // titleScreen.addChild(creditsBtn);
 
   window.addEventListener("playStartVideo", () => {
     startGameBtn.disable();
