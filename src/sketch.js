@@ -20,7 +20,7 @@ import TextArea from "./textarea.js";
 
 // interactive element classes
 import InfoBox from "./titlescreen/infoBox.js";
-import TitleScreenButton from "./titlescreen/titleScreenButton.js";
+// import TitleScreenButton from "./titlescreen/titleScreenButton.js";
 import BarLink from "./simulation/interactiveElements/demo/barLink.js";
 import CoffeeHouseLink from "./simulation/interactiveElements/park/coffeeHouseLink.js";
 import DemoLink from "./simulation/interactiveElements/park/demoLink.js";
